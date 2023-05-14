@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>portfolio</title>
+
+</head>
+<body>
+  
+    <!--navigation bar and header text-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://i.imgur.com/Q5meZru.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="pt-BR.html">Traduzir para o português</a></li>
+                    <ion-icon name="close-outline" onclick="closemenu()"></ion-icon>
+                </ul>
+                <ion-icon name="menu-outline" onclick="openmenu()"></ion-icon>
+            </nav>
+
+            <div class="header-text">
+                <p>Graphic Designer | Front-end developer</p>
+                <h1>Hello, I'm <span>Héricles Paiva</span>.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://i.imgur.com/TDJVHzS.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>My name is <span class="span-name">Héricles Paiva</span>. I was born in 2002 on Brazil.
+                    I'm graphic designer and front-end developer. I use <span class="span-psd">Adobe Photoshop</span> and
+                    <span class="span-psd">Adobe Lightroom</span> for graphic design; As for front-end development, 
+                    I use <span class="span-psd">HTML, CSS and Javascript</span>.</p>
+                    
+                    <h2 class="subtitle-2">My Objective</h2>
+                    <p>As <span class="span-name">designer</span> I believe that presenting of your work with 
+                    the best form is the <span class="span-name">key to increase the value perception</span> that your customer have. <br>
+                    Through the <span class="span-name">digital media</span>, I want that you create <span class="span-name">autorithy and conection</span>
+                    with your public, bringing to you more <span class="span-name">sells and results</span>. Be able to know and follow your progression, to me,
+                    is <span class="span-name">very satisfying</span>. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span class="tab-contents-1">Advanced <span class="span-psd">Adobe Photoshop</span></span><br><p>Designing trademarks and banners;</p></li>
+                            <li><span class="tab-contents-1">Advanced <span class="span-psd">HTML and CSS</span></span><br><p>Creating websites' layout;</p></li>
+                            <li><span class="tab-contents-1">Intermadiate <span class="span-psd">JavaScipt</span></span><br><p>Developing websites' funcionality;</p></li>
+                            <li><span class="tab-contents-1">Graphic design fundamentals</span><br><p>Acknowledge in image composition, production concept, color theory, tipography, tools and image editors.</p></li>
+                        </ul>
+                    </div>
+                   
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="tab-contents-1">College</span><br><p>Studying systems analysis and development at Faculdade Imaculada Coração do Recife (FICR);</p></li>
+                            <li><span class="span-psd">Adobe Photoshop</span><br><p>Studied an advanced online course;</p></li>
+                            <li><span class="span-psd">HTML, CSS and JavaScript</span><br><p>Studied at Fundação Bradesco;</p></li>
+                            <li><span class="tab-contents-1">Graphic design fundamentals</span><br><p>Studied at Fundação Bradesco.</p></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="languages">
+                        <ul>
+                            <li><span class="tab-contents-1">Portuguese (Brazilian)</span><br><p>Native;</p></li>
+                            <li><span class="tab-contents-1">English</span><br><p>Fluent;</p></li>
+                            <li><span class="tab-contents-1">Spanish</span><br><p>Advanced;</p></li>
+                            <li><span class="tab-contents-1">Japanese</span><br><p>Basic (JLPT-N4).</p></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---gallery--->
+    <div id="gallery">
+        <div class="container">
+            <h1 class="subtitle">Gallery</h1>
+            <div class="work-list">
+                <div class="work img-1">
+                    <img src="https://i.imgur.com/EWvkzVD.png">
+                    <p>Umbra Lunari band's trademark</p>
+                </div>
+                <div class="work img-2">
+                    <img src="https://i.imgur.com/yP7QqoI.jpg">
+                    <p><i>Alemanha</i>'s album cover</p>
+                </div>
+                <div class="work img-3">
+                    <img src="https://i.imgur.com/NcATu5b.jpg">
+                    <p><i>Vibe Japonesa</i>'s album cover</p>
+                </div>
+                <div class="work img-4">
+                    <img src="https://i.imgur.com/kjh7bW3.png">
+                    <p><i>Hinokane Store</i>'s online store trademark</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><ion-icon name="mail-outline"></ion-icon>h.paivaa@outlook.com</p>
+                    <p><ion-icon name="call-outline"></ion-icon>+55 (081) 99556-3893</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/h.paivaa" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="https://www.behance.net/h-paivaa" target="_blank"><ion-icon name="logo-behance"></ion-icon></a>
+                        <a href="https://wa.me/qr/76RGGQUINDPPC1" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Portfolio created by Héricles Paiva.</p>
+        </div>
+    </div>
+
+
+
+    <script src="coding.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
