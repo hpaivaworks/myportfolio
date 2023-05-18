@@ -234,7 +234,8 @@ nav ul li a:hover::after{
 .contact{
     flex-basis: 35%;
     margin-top: 50px;
-    margin-left: 350px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #242424;
     border: 2px outset;
     border-radius: 30px;
@@ -279,75 +280,4 @@ nav ul li a:hover::after{
     background: #262626;
     font-weight: 300;
     margin-top: 20px;
-}
-
-/*---- css for small screen ----*/
-
-nav ion-icon{
-    display: none;
-}
-
-@media only screen and (max-width: 600px){
-    .header-text{
-        margin-top: 100%;
-        font-size: 16px;
-    }
-    .header-text h1{
-        font-size: 30px;
-    }
-
-    nav ion-icon{
-        display: block;
-        font-size: 25px;
-    }
-
-    nav ul{
-        background: #813eb6;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-    nav ul li{
-        display: block;
-        margin: 25px;
-    }
-    nav ul ion-icon{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-
-    .subtitle, .subtitle-2{
-        font-size: 40px;
-    }
-
-    .about-col-1, .about-col-2{
-        flex-basis: 100%;
-    }
-
-    .about-col-1{
-        margin-bottom: 30px;
-    }
-    .about-col-2{
-        font-size: 14px;
-    }
-    
-    .tab-links{
-        font-size: 16px;
-        margin-right: 20px;
-    }
-
-    .contact{
-        flex-basis: 100%;
-    }
-
-    .copyright{
-        font-size: 14px;
-    }
 }
