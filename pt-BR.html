@@ -7,6 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <title>portfolio</title>
 
 </head>
@@ -27,8 +45,12 @@
             </nav>
 
             <div class="header-text">
-                <p>Designer Gráfico | Desenvolvedor front-end</p>
-                <h1>Olá, Eu sou <span>Héricles Paiva</span>.</h1>
+                <p>Graphic Designer | Front-end developer</p>
+                <div class="social-icons-2">
+                    <a href="https://www.behance.net/h-paivaa" target="_blank"><ion-icon name="logo-behance"></ion-icon></a>
+                    <a href="https://github.com/hpaivaworks" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+                <h1>Hello, I'm <span>Héricles Paiva</span>.</h1>
             </div>
         </div>
     </div>
@@ -95,22 +117,21 @@
     <div id="gallery">
         <div class="container">
             <h1 class="subtitle">Galeria</h1>
-            <div class="work-list">
-                <div class="work img-1">
-                    <img src="https://i.imgur.com/EWvkzVD.png">
-                    <p>Logomarca da banda Umbra Lunari</p>
-                </div>
-                <div class="work img-2">
-                    <img src="https://i.imgur.com/yP7QqoI.jpg">
-                    <p>Capa do álbum <i>Alemanha</i></p>
-                </div>
-                <div class="work img-3">
-                    <img src="https://i.imgur.com/NcATu5b.jpg">
-                    <p>Capa do álbum <i>Vibe Japonesa</i></p>
-                </div>
-                <div class="work img-4">
-                    <img src="https://i.imgur.com/zRjSsqX.png">
-                    <p>Exemplo de logomarca para cafeteria japonesa</p>
+
+            <div class="container-2">
+                <button class="arrow-left control" aria-label="previous image">◀</button>
+                <button class="arrow-right control" aria-label="next image">▶</button>
+
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="https://i.imgur.com/EWvkzVD.png" alt="Umbra Lunari band's trademark" class="item current-item">
+                        
+                        <img src="https://i.imgur.com/yP7QqoI.jpg" alt="Alemanha's album cover" class="item current-item">
+                            
+                        <img src="https://i.imgur.com/NcATu5b.jpg" alt="Vibe Japonesa's album cover" class="item current-item">
+                            
+                        <img src="https://i.imgur.com/zRjSsqX.png" alt="Trademark example for japanese cafeteria" class="item current-item">
+                    </div>
                 </div>
             </div>
         </div>
@@ -126,7 +147,6 @@
                     <p><ion-icon name="call-outline"></ion-icon>+55 (081) 99556-3893</p>
                     <div class="social-icons">
                         <a href="https://instagram.com/h.paivaa" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
-                        <a href="https://www.behance.net/h-paivaa" target="_blank"><ion-icon name="logo-behance"></ion-icon></a>
                         <a href="https://wa.me/qr/76RGGQUINDPPC1" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>
                     </div>
                 </div>
