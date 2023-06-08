@@ -302,11 +302,27 @@ nav ul li a:hover::after{
     display: inline-block;
     transition: transform 0.5s;
     position: relative;
-    left: 560px;
+    left: 615px;
     top: -60px;
 }
 
 .social-icons-2 a:hover{
+    color: #ee82ee;
+    transform: translateY(-5px);
+}
+
+.social-icons-3 a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #fafafa;
+    display: inline-block;
+    transition: transform 0.5s;
+    position: relative;
+    left: 670px;
+    top: -60px;
+}
+
+.social-icons-3 a:hover{
     color: #ee82ee;
     transform: translateY(-5px);
 }
